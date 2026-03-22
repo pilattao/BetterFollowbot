@@ -41,7 +41,8 @@ namespace BetterFollowbot
                        (ui.SyndicatePanel?.IsVisible == true && ui.SyndicatePanel?.IsValid == true) ||
                        (ui.SyndicateTree?.IsVisible == true && ui.SyndicateTree?.IsValid == true) ||
                        (ui.QuestRewardWindow?.IsVisible == true && ui.QuestRewardWindow?.IsValid == true) ||
-                       (ui.SynthesisWindow?.IsVisible == true && ui.SynthesisWindow?.IsValid == true) ||
+                       (ui.MirageWishesPanel?.IsVisible == true && ui.MirageWishesPanel?.IsValid == true) ||
+                       (ui.GenesisTreeWindow?.IsVisible == true && ui.GenesisTreeWindow?.IsValid == true) ||
                        (ui.MapDeviceWindow?.IsVisible == true && ui.MapDeviceWindow?.IsValid == true) ||
                        (ui.SettingsPanel?.IsVisible == true && ui.SettingsPanel?.IsValid == true);
             }
@@ -104,8 +105,10 @@ namespace BetterFollowbot
                     openUIs.Add("SyndicateTree");
                 if (ui.QuestRewardWindow?.IsVisible == true && ui.QuestRewardWindow?.IsValid == true)
                     openUIs.Add("QuestRewardWindow");
-                if (ui.SynthesisWindow?.IsVisible == true && ui.SynthesisWindow?.IsValid == true)
-                    openUIs.Add("SynthesisWindow");
+                if (ui.MirageWishesPanel?.IsVisible == true && ui.MirageWishesPanel?.IsValid == true)
+                    openUIs.Add("MirageWishesPanel");
+                if (ui.GenesisTreeWindow?.IsVisible == true && ui.GenesisTreeWindow?.IsValid == true)
+                    openUIs.Add("GenesisTreeWindow");
                 if (ui.MapDeviceWindow?.IsVisible == true && ui.MapDeviceWindow?.IsValid == true)
                     openUIs.Add("MapDeviceWindow");
                 if (ui.SettingsPanel?.IsVisible == true && ui.SettingsPanel?.IsValid == true)
